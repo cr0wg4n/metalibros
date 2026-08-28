@@ -80,6 +80,8 @@
   padding: 0.9rem 1rem;
   cursor: pointer;
   transition: transform 0.2s ease;
+  text-decoration: none;
+  text-align: center;
 }
 
 .login-form__button:hover {
