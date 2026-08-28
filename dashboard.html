@@ -8,13 +8,25 @@
     <link rel="stylesheet" href="/assets/css/dashboard.css">
   </head>
   <body>
-    <nav class="navbar" aria-label="Navegación principal">
-      <a class="navbar__logo" href="/index.html">
-        <img src="assets/images/brand/metalibros.png" alt="Metalibros Logo">
-      </a>
-    </nav>
-
     <main class="dashboard-page">
+      <aside class="sidebar" aria-label="Sidebar de navegación">
+        <div class="sidebar__header">
+          <a class="navbar__logo" href="/index.html">
+            <img src="/assets/images/brand/metalibros.png" alt="Metalibros Logo">
+          </a>
+        </div>
+        <nav class="sidebar__nav">
+          <a class="sidebar__item sidebar__item--active" href="#">Dashboard</a>
+          <a class="sidebar__item" href="#">Lista de Libros</a>
+          <a class="sidebar__item" href="#">Registro de Libros</a>
+        </nav>
+      </aside>
+
+      <section class="dashboard-content" aria-label="Contenido principal del dashboard">
+        <nav class="dashboard-content__nav">
+          <h1 class="dashboard-content__nav__title">Dashboard</h1>
+        </nav>
+      </section>
     </main>
   </body>
 </html>

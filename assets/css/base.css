@@ -5,8 +5,13 @@
   --secondary-color: #66A3BF;
   --accent-color: #C8DFDB;
   --surface-color: #F2EFE7;
-  --neutral: #FFFFFF;
+  --neutral-color: #FFFFFF;
+  --foreground-color: #363738;
+  --gradient-primary-color: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  --gradient-secondary-color: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+
   --shadow: 0 10px 24px rgba(51, 104, 160, 0.08);
+
   --font-family: 'Valley Sans', Arial, sans-serif;
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
