@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #3368A0;
+  --secondary-color: #66A3BF;
+  --accent-color: #C8DFDB;
+  --surface-color: #F2EFE7;
+  --font-family: 'Valley Sans', Arial, sans-serif;
+  --font-size: 1rem;
+  --line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+body {
+  background-color: var(--surface-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  padding: 0rem 1rem;
+}
+
+.navbar__logo img {
+  width: 80px;
+}
+
+.navbar__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.navbar__navigation__item {
+  cursor: pointer;
+  font-size: calc(var(--font-size) * 1);
+  color: var(--primary-color);
+  user-select: none;
+  font-weight: 500;
+
+  &:active {
+    color: var(--accent-color);
+  }
+}
+
+.central-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 16rem;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.central-banner__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.central-banner__title {
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.central-banner__subtitle {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
