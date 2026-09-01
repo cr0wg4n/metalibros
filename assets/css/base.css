@@ -7,8 +7,15 @@
   --surface-color: #F2EFE7;
   --neutral-color: #FFFFFF;
   --foreground-color: #363738;
+
   --gradient-primary-color: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
   --gradient-secondary-color: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  --gradient-sky-color: linear-gradient(135deg, #77B6D7, #3368A0);
+  --gradient-mint-color: linear-gradient(135deg, #B9D6C9, #66A3BF);
+  --gradient-soft-color: linear-gradient(135deg, #C8DFDB, #8CB7C2);
+  --gradient-warm-color: linear-gradient(135deg, #E8D7B9, #B7C9C8);
+  --gradient-ocean-color: linear-gradient(135deg, #63A5C7, #2C6FA7);
+  --gradient-forest-color: linear-gradient(135deg, #9CC9B9, #4F8A7D);
 
   --shadow: 0 10px 24px rgba(51, 104, 160, 0.08);
 
