@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #3368A0;
+  --secondary-color: #66A3BF;
+  --accent-color: #C8DFDB;
+  --surface-color: #F2EFE7;
+  --neutral-color: #FFFFFF;
+  --foreground-color: #363738;
+
+  --gradient-primary-color: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  --gradient-secondary-color: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  --gradient-sky-color: linear-gradient(135deg, #77B6D7, #3368A0);
+  --gradient-mint-color: linear-gradient(135deg, #B9D6C9, #66A3BF);
+  --gradient-soft-color: linear-gradient(135deg, #C8DFDB, #8CB7C2);
+  --gradient-warm-color: linear-gradient(135deg, #E8D7B9, #B7C9C8);
+  --gradient-ocean-color: linear-gradient(135deg, #63A5C7, #2C6FA7);
+  --gradient-forest-color: linear-gradient(135deg, #9CC9B9, #4F8A7D);
+
+  --shadow: 0 10px 24px rgba(51, 104, 160, 0.08);
+
+  --font-family: 'Valley Sans', Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2.5rem;
+  --line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height);
+}
+
+body {
+  background-color: var(--surface-color);
+  font-size: var(--font-size-md);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  padding: 0 1rem;
+}
+
+.navbar__logo img {
+  width: 80px;
+}
+
+.navbar__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.navbar__navigation__item {
+  cursor: pointer;
+  font-size: var(--font-size-md);
+  color: var(--primary-color);
+  user-select: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar__navigation__item:active {
+  color: var(--accent-color);
+}

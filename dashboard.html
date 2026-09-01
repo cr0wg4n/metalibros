@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metalibros | Dashboard</title>
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/dashboard.css">
+  </head>
+  <body>
+    <main class="dashboard-page">
+      <aside class="sidebar" aria-label="Sidebar de navegación">
+        <div class="sidebar__header">
+          <a class="navbar__logo" href="/index.html">
+            <img src="/assets/images/brand/metalibros.png" alt="Metalibros Logo">
+          </a>
+        </div>
+        <nav class="sidebar__nav">
+          <a class="sidebar__item sidebar__item--active" href="/dashboard.html">Dashboard</a>
+          <a class="sidebar__item" href="/book-list.html">Lista de Libros</a>
+          <a class="sidebar__item" href="/book-register.html">Registro de Libros</a>
+        </nav>
+      </aside>
+
+      <section class="dashboard-content" aria-label="Contenido principal del dashboard">
+        <nav class="dashboard-content__nav">
+          <h1 class="dashboard-content__nav__title">Dashboard</h1>
+        </nav>
+
+        <div class="dashboard-overview" aria-label="Resumen de indicadores">
+          <article class="insight-card insight-card--top">
+            <span class="insight-card__label">Libros vendidos</span>
+            <strong class="insight-card__value">2077</strong>
+          </article>
+
+          <article class="insight-card insight-card--top">
+            <span class="insight-card__label">Libros deseados</span>
+            <strong class="insight-card__value">3210</strong>
+          </article>
+
+          <article class="insight-card insight-card--top">
+            <span class="insight-card__label">Usuarios del sistema</span>
+            <strong class="insight-card__value">396</strong>
+          </article>
+        </div>
+
+        <section class="dashboard-panel" aria-label="Departamentos con más ventas de Bolivia">
+          <div class="dashboard-panel__header">
+            <h2>Departamentos con más ventas</h2>
+          </div>
+
+          <ul class="department-list">
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Cochabamba</span>
+                <span>420</span>
+              </div>
+              <div class="department-bar department-bar--primary">
+                <span style="width: 92%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>La Paz</span>
+                <span>360</span>
+              </div>
+              <div class="department-bar department-bar--secondary">
+                <span style="width: 78%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Santa Cruz</span>
+                <span>310</span>
+              </div>
+              <div class="department-bar department-bar--accent">
+                <span style="width: 68%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Tarija</span>
+                <span>240</span>
+              </div>
+              <div class="department-bar department-bar--soft">
+                <span style="width: 53%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Oruro</span>
+                <span>195</span>
+              </div>
+              <div class="department-bar department-bar--muted">
+                <span style="width: 42%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Potosí</span>
+                <span>168</span>
+              </div>
+              <div class="department-bar department-bar--primary">
+                <span style="width: 37%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Chuquisaca</span>
+                <span>154</span>
+              </div>
+              <div class="department-bar department-bar--secondary">
+                <span style="width: 34%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Beni</span>
+                <span>132</span>
+              </div>
+              <div class="department-bar department-bar--accent">
+                <span style="width: 29%;"></span>
+              </div>
+            </li>
+
+            <li class="department-item">
+              <div class="department-item__meta">
+                <span>Pando</span>
+                <span>98</span>
+              </div>
+              <div class="department-bar department-bar--soft">
+                <span style="width: 21%;"></span>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
