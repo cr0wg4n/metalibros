@@ -148,10 +148,6 @@
     flex-direction: column;
   }
 
-  .sidebar {
-    width: 100%;
-  }
-
   .dashboard-overview {
     grid-template-columns: 1fr;
   }

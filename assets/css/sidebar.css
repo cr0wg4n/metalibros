@@ -1,5 +1,6 @@
 .sidebar {
-  width: 260px;
+  min-width: 260px;
+  max-width: 260px;
   z-index: 1;
   background-color: var(--neutral-color);
   padding: 1rem 0.5rem;
@@ -38,4 +39,11 @@
   background: var(--gradient-primary-color);
   color: var(--neutral-color);
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
 }
