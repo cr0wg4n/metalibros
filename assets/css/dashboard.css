@@ -51,12 +51,8 @@
   background: var(--gradient-primary-color);
 }
 
-
 .insight-card__label {
   display: block;
-}
-
-.insight-card__label {
   font-size: var(--font-size-sm);
   color: var(--foreground-color);
   opacity: 0.8;
