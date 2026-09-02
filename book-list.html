@@ -3,85 +3,94 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metalibros | Lista de Libros</title>
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css">
-    <link rel="stylesheet" href="assets/css/book-card.css">
-    <link rel="stylesheet" href="assets/css/book-list.css">
+    <title>Metalibros | Libros Publicados</title>
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/book-card.css">
+    <link rel="stylesheet" href="/assets/css/book-list.css">
   </head>
   <body>
     <main class="book-list-page">
       <aside class="sidebar" aria-label="Sidebar de navegación">
         <div class="sidebar__header">
-          <a class="navbar__logo" href="index.html">
-            <img src="assets/images/brand/metalibros.png" alt="Metalibros Logo">
+          <a class="navbar__logo" href="/index.html">
+            <img src="/assets/images/brand/metalibros.png" alt="Metalibros Logo">
           </a>
         </div>
         <nav class="sidebar__nav">
-          <a class="sidebar__item" href="dashboard.html">Dashboard</a>
-          <a class="sidebar__item sidebar__item--active" href="book-list.html">Lista de Libros</a>
-          <a class="sidebar__item" href="book-register.html">Registro de Libros</a>
+          <a class="sidebar__item" href="/dashboard.html">Dashboard</a>
+          <a class="sidebar__item sidebar__item--active" href="/book-list.html">Libros Publicados</a>
+          <a class="sidebar__item" href="/book-register.html">Registro de Libros</a>
+          <a class="sidebar__item" href="/book-admin.html">Administración de Libros</a>
         </nav>
+
+        <div class="sidebar__footer">
+          <a class="sidebar__item" href="/profile.html">Configurar perfil</a>
+        </div>
       </aside>
 
       <section class="book-list-content">
         <nav class="dashboard-content__nav">
-          <h1 class="dashboard-content__nav__title">Lista de libros</h1>
+          <h1 class="dashboard-content__nav__title">Libros Publicados</h1>
         </nav>
+
+        <div class="book-list-actions">
+          <a class="book-list-actions__button" href="/book-register.html">Agregar nuevo libro</a>
+        </div>
 
         <div class="books-grid">
           <article class="book-card">
             <div class="book-card__price">Bs 120</div>
-            <img class="book-card__cover" src="assets/images/dune.jpg" alt="Dune, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/dune.jpg" alt="Dune, cubierta de libro">
             <h2 class="book-card__title">Dune</h2>
             <p class="book-card__description">Una historia épica sobre poder, destino y supervivencia en un planeta desértico donde la especia determina el futuro del universo.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 90</div>
-            <img class="book-card__cover" src="assets/images/modernidad-liquida.webp" alt="Modernidad líquida, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/modernidad-liquida.webp" alt="Modernidad líquida, cubierta de libro">
             <h2 class="book-card__title">Modernidad líquida</h2>
             <p class="book-card__description">Una reflexión profunda sobre la sociedad contemporánea, la inseguridad y la velocidad que transforman la identidad individual.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 85</div>
-            <img class="book-card__cover" src="assets/images/agonia-del-eros.webp" alt="La agonía del eros, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/agonia-del-eros.webp" alt="La agonía del eros, cubierta de libro">
             <h2 class="book-card__title">La Agonía del Eros</h2>
             <p class="book-card__description">Un ensayo que analiza la crisis del deseo, la intimidad y el sentido del amor en la modernidad.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 75</div>
-            <img class="book-card__cover" src="assets/images/pride-prejudice.jpg" alt="Orgullo y Prejuicio, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/pride-prejudice.jpg" alt="Orgullo y Prejuicio, cubierta de libro">
             <h2 class="book-card__title">Orgullo y Prejuicio</h2>
             <p class="book-card__description">Una historia de amor, orgullo y prejuicios que revela la complejidad de las relaciones humanas y la sociedad inglesa.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 70</div>
-            <img class="book-card__cover" src="assets/images/no-cosas.webp" alt="No Cosas, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/no-cosas.webp" alt="No Cosas, cubierta de libro">
             <h2 class="book-card__title">No Cosas</h2>
             <p class="book-card__description">Un libro que cuestiona la obsesión por acumular objetos y propone una vida más consciente, simple y auténtica.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 130</div>
-            <img class="book-card__cover" src="assets/images/ideologia.jpeg" alt="El sublime objeto de la ideología, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/ideologia.jpeg" alt="El sublime objeto de la ideología, cubierta de libro">
             <h2 class="book-card__title">El sublime objeto de la ideología</h2>
             <p class="book-card__description">Es su obra más famosa y una puerta de entrada clásica. Aquí Žižek combina marxismo, psicoanálisis lacaniano y crítica cultural para explicar cómo la ideología funciona no como “falsa conciencia”, sino como una fantasía inconsciente que estructura nuestra realidad.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 115</div>
-            <img class="book-card__cover" src="assets/images/violencia.jpg" alt="Sobre la violencia, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/violencia.jpg" alt="Sobre la violencia, cubierta de libro">
             <h2 class="book-card__title">Sobre la violencia</h2>
             <p class="book-card__description">Un libro breve y potente donde distingue entre violencia “subjetiva” y violencia “objetiva” o sistémica. Es útil para entender su crítica política contemporánea de Slavoj Žižek.</p>
           </article>
 
           <article class="book-card">
             <div class="book-card__price">Bs 140</div>
-            <img class="book-card__cover" src="assets/images/extranjero.webp" alt="El extranjero, cubierta de libro">
+            <img class="book-card__cover" src="/assets/images/extranjero.webp" alt="El extranjero, cubierta de libro">
             <h2 class="book-card__title">El extranjero</h2>
             <p class="book-card__description">Es su novela más famosa y una puerta de entrada perfecta a su pensamiento. Narra la historia de Meursault, un hombre indiferente emocionalmente que comete un crimen impulsivo en Argelia y enfrenta las consecuencias en un juicio donde lo condenan tanto por sus actos como por no llorar la muerte de su madre.</p>
           </article>

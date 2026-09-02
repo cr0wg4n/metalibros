@@ -1,23 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --primary-color: #3368A0;
-  --secondary-color: #66A3BF;
-  --accent-color: #C8DFDB;
-  --surface-color: #F2EFE7;
-  --neutral-color: #FFFFFF;
-  --foreground-color: #363738;
+  --primary: #3368A0;
+  --secondary: #66A3BF;
+  --accent: #C8DFDB;
+  --surface: #F2EFE7;
+  --surface-alt: #F9FAFB;
+  --white: #FFFFFF;
+  --text: #363738;
+  --muted: #475569;
+  --success: #2F7D32;
+  --dark: #1F2D3D;
+
+
+  --primary-soft: rgba(51, 104, 160, 0.08);
+  --primary-soft-strong: rgba(51, 104, 160, 0.12);
+  --primary-soft-heavy: rgba(51, 104, 160, 0.15);
+  --primary-softest: rgba(51, 104, 160, 0.18);
+  --secondary-soft: rgba(102, 163, 191, 0.04);
+  --success-soft: rgba(52, 168, 83, 0.12);
+  --neutral-soft: rgba(112, 128, 144, 0.14);
+
+
+  --primary-color: var(--primary);
+  --secondary-color: var(--secondary);
+  --accent-color: var(--accent);
+  --surface-color: var(--surface);
+  --neutral-color: var(--white);
+  --foreground-color: var(--text);
+  --success-color: var(--success);
+
+  --text-muted: var(--muted);
+  --text-soft: var(--muted);
+  --text-light: var(--muted);
+  --text-dark: var(--dark);
+
+  --input-bg: var(--surface-alt);
+  --input-disabled: #EEF1F4;
+
+  --shadow-dark: rgba(20, 30, 40, 0.8);
+  --shadow: 0 10px 24px var(--primary-08);
+
+  --border-soft: #D1D5DB;
+  --border-muted: #C0C7D1;
+
+  --primary-08: var(--primary-soft);
+  --primary-12: var(--primary-soft-strong);
+  --primary-15: var(--primary-soft-heavy);
+  --primary-18: var(--primary-softest);
+  --secondary-04: var(--secondary-soft);
 
   --gradient-primary-color: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
   --gradient-secondary-color: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  --gradient-sky-color: linear-gradient(135deg, #77B6D7, #3368A0);
-  --gradient-mint-color: linear-gradient(135deg, #B9D6C9, #66A3BF);
-  --gradient-soft-color: linear-gradient(135deg, #C8DFDB, #8CB7C2);
+  --gradient-sky-color: linear-gradient(135deg, #77B6D7, var(--primary));
+  --gradient-mint-color: linear-gradient(135deg, #B9D6C9, var(--secondary));
+  --gradient-soft-color: linear-gradient(135deg, var(--accent), #8CB7C2);
   --gradient-warm-color: linear-gradient(135deg, #E8D7B9, #B7C9C8);
   --gradient-ocean-color: linear-gradient(135deg, #63A5C7, #2C6FA7);
   --gradient-forest-color: linear-gradient(135deg, #9CC9B9, #4F8A7D);
-
-  --shadow: 0 10px 24px rgba(51, 104, 160, 0.08);
 
   --font-family: 'Valley Sans', Arial, sans-serif;
   --font-size-xs: 0.75rem;

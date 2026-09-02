@@ -1,0 +1,126 @@
+.book-register-page {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.book-register-content {
+  width: 100%;
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+.book-register__header {
+  width: 100%;
+  background-color: var(--neutral-color);
+  padding: 1.5rem;
+}
+
+.book-register__header-title {
+  color: var(--primary-color);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+.book-register__form-wrapper {
+  padding: 2rem 1.5rem;
+}
+
+.book-register__form {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--neutral-color);
+  border: 1px solid var(--primary-08);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.book-register__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.book-register__field--full {
+  grid-column: 1 / -1;
+}
+
+.book-register__field label {
+  color: var(--foreground-color);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+
+.book-register__field input,
+.book-register__field textarea {
+  width: 100%;
+  border: 1px solid var(--primary-18);
+  border-radius: 12px;
+  background-color: var(--input-bg);
+  padding: 0.8rem 0.9rem;
+  color: var(--text);
+  outline: none;
+}
+
+.book-register__field input:focus,
+.book-register__field textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--primary-08);
+}
+
+.book-register__field textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.book-register__actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.book-register__button {
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.book-register__button--primary {
+  background: var(--gradient-primary-color);
+  color: var(--neutral-color);
+}
+
+@media (max-width: 760px) {
+  .book-register-page {
+    flex-direction: column;
+  }
+
+  .book-register__form {
+    grid-template-columns: 1fr;
+    padding: 1.25rem;
+  }
+
+  .book-register__actions {
+    justify-content: stretch;
+    flex-direction: column-reverse;
+  }
+
+  .book-register__button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .book-register__form-wrapper {
+    padding: 1rem;
+  }
+}

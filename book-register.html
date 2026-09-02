@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metalibros | Registro de Libros</title>
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/book-register.css">
+  </head>
+  <body>
+    <main class="book-register-page">
+      <aside class="sidebar" aria-label="Sidebar de navegación">
+        <div class="sidebar__header">
+          <a class="navbar__logo" href="/index.html">
+            <img src="/assets/images/brand/metalibros.png" alt="Metalibros Logo">
+          </a>
+        </div>
+        <nav class="sidebar__nav">
+          <a class="sidebar__item" href="/dashboard.html">Dashboard</a>
+          <a class="sidebar__item" href="/book-list.html">Libros Publicados</a>
+          <a class="sidebar__item sidebar__item--active" href="/book-register.html">Registro de Libros</a>
+          <a class="sidebar__item" href="/book-admin.html">Administración de Libros</a>
+        </nav>
+
+        <div class="sidebar__footer">
+          <a class="sidebar__item" href="/profile.html">Configurar perfil</a>
+        </div>
+      </aside>
+
+      <section class="book-register-content">
+        <nav class="book-register__header">
+          <h1 class="book-register__header-title">Registro de libros</h1>
+        </nav>
+
+        <div class="book-register__form-wrapper">
+          <form class="book-register__form">
+            <div class="book-register__field">
+              <label for="book-title">Título</label>
+              <input id="book-title" name="book-title" type="text" placeholder="Ej. Dune" required>
+            </div>
+
+            <div class="book-register__field">
+              <label for="book-author">Autor</label>
+              <input id="book-author" name="book-author" type="text" placeholder="Ej. Frank Herbert" required>
+            </div>
+
+            <div class="book-register__field">
+              <label for="book-price">Precio</label>
+              <input id="book-price" name="book-price" type="number" min="0" step="0.01" placeholder="Ej. 120" required>
+            </div>
+
+            <div class="book-register__field">
+              <label for="book-year">Año</label>
+              <input id="book-year" name="book-year" type="number" min="1000" max="9999" placeholder="Ej. 1965" required>
+            </div>
+
+            <div class="book-register__field book-register__field--full">
+              <label for="book-description">Descripción</label>
+              <textarea
+                id="book-description"
+                name="book-description"
+                rows="5"
+                placeholder="Escribe una breve descripción del libro..."
+                required>
+              </textarea>
+            </div>
+
+            <div class="book-register__field book-register__field--full">
+              <label for="book-cover">Imagen de portada</label>
+              <input id="book-cover" name="book-cover" type="url" placeholder="https://ejemplo.com/portada.jpg">
+            </div>
+
+            <div class="book-register__actions">
+              <a class="book-register__button book-register__button--primary" href="/book-admin.html">Guardar libro</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
