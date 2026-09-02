@@ -6,6 +6,8 @@ Es una tienda online de venta de libros de pensamiento crítico y clásicos de l
 
 > Todos los datos e interacciones están de cierta forma falseadas ya que no tiene interactividad con JS, esta página fue desarrollada puramente con HTML y CSS.
 
+Página web desplegada: https://cr0wg4n.github.io/metalibros/
+
 ### Flujo de Navegación
 Para entender un tanto la navegación dentro de la página se puede utilizar el siguiente flujo:
 
@@ -29,16 +31,16 @@ Las consideraciones iniciales con las que se desarrolló esta Página Web están
 3. Se introdujo un módulo CSS base llamado `base.css` con variables CSS que pueden llamarse y reutilizarse a lo largo de los archivos CSS existentes, esto permite parametrizar la UI y ser consistente, brindando una gran experiencia al usuario final.
 
 4. El uso de colores no es aleatorio, se eligió una paleta de colores en relación a la temática del sitio web, en este caso, venta de libros. Se creó una marca, con logotipo y favicon.ico incluidos, igualmente se tuvieron algunas consideraciones adicionales como el espaciado, el estilo de las tarjetas o cards, inputs y casi todos los elementos visuales. Esta es la paleta de colores elegida:
-    * primary: #3368A0
-    * secondary: #66A3BF
-    * accent: #C8DFDB
-    * surface: #F2EFE7
-    * surface-alt: #F9FAFB
-    * white: #FFFFFF
-    * text: #363738
-    * muted: #475569
-    * success: #2F7D32
-    * dark: #1F2D3D
+    * <img valign='middle' src='https://readme-swatches.vercel.app/3368A0?style=rectangle'/> primary: #3368A0
+    * <img valign='middle' src='https://readme-swatches.vercel.app/66A3BF?style=rectangle'/> secondary: #66A3BF
+    * <img valign='middle' src='https://readme-swatches.vercel.app/C8DFDB?style=rectangle'/> accent: #C8DFDB
+    * <img valign='middle' src='https://readme-swatches.vercel.app/F2EFE7?style=rectangle'/> surface: #F2EFE7
+    * <img valign='middle' src='https://readme-swatches.vercel.app/F9FAFB?style=rectangle'/> surface-alt: #F9FAFB
+    * <img valign='middle' src='https://readme-swatches.vercel.app/FFFFFF?style=rectangle'/> white: #FFFFFF
+    * <img valign='middle' src='https://readme-swatches.vercel.app/363738?style=rectangle'/> text: #363738
+    * <img valign='middle' src='https://readme-swatches.vercel.app/475569?style=rectangle'/> muted: #475569
+    * <img valign='middle' src='https://readme-swatches.vercel.app/2F7D32?style=rectangle'/> success: #2F7D32
+    * <img valign='middle' src='https://readme-swatches.vercel.app/1F2D3D?style=rectangle'/> dark: #1F2D3D
 
 5. Finalmente, se consideró igualmente el uso de meta tags en cada página HTML para mejorar el SEO y la experiencia del usuario al compartir cada enlace (en el caso de que la Página Web realmente se despliegue).
 
