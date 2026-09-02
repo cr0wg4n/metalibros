@@ -185,7 +185,7 @@
 }
 
 @media (max-width: 760px) {
-  .book-list-page {
+  .book-admin-page {
     flex-direction: column;
   }
 

@@ -146,6 +146,7 @@
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.2s ease;
+  text-align: center;
 }
 
 .profile__button--primary {
