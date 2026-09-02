@@ -35,7 +35,7 @@
   box-shadow: var(--shadow);
   background: var(--neutral-color);
   overflow: hidden;
-  border: 1px solid rgba(51, 104, 160, 0.08);
+  border: 1px solid var(--primary-08);
 }
 
 .insight-card::before {
@@ -109,7 +109,7 @@
   width: 100%;
   height: 0.75rem;
   border-radius: 999px;
-  background: rgba(51, 104, 160, 0.12);
+  background: var(--primary-12);
   overflow: hidden;
 }
 

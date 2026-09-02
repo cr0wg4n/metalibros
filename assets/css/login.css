@@ -8,11 +8,11 @@
 
 .login-card {
   width: min(100%, 460px);
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(51, 104, 160, 0.12);
+  background: var(--neutral-color);
+  border: 1px solid var(--primary-12);
   border-radius: 1.25rem;
   padding: 2rem;
-  box-shadow: 0 18px 38px rgba(51, 104, 160, 0.12);
+  box-shadow: 0 18px 38px var(--primary-12);
 }
 
 .login-card__header {
@@ -45,12 +45,12 @@
 
 .login-form__input {
   width: 100%;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary);
   border-radius: 0.75rem;
   padding: 0.9rem 1rem;
   font-size: var(--font-size-md);
-  background: #fff;
-  color: #1f2d3d;
+  background: var(--white);
+  color: var(--text-dark);
 }
 
 .login-form__input:focus {
@@ -75,15 +75,11 @@
   border: none;
   border-radius: 0.8rem;
   background: var(--gradient-primary-color);
-  color: #fff;
+  color: var(--neutral-color);
   font-weight: 700;
   padding: 0.9rem 1rem;
   cursor: pointer;
   transition: transform 0.2s ease;
   text-decoration: none;
   text-align: center;
-}
-
-.login-form__button:hover {
-  transform: translateY(-1px);
 }

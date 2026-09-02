@@ -4,7 +4,8 @@
   width: 100%;
 }
 
-.book-list-content {
+.book-list-content,
+.book-register-content {
   width: 100%;
   flex: 1;
   padding-bottom: 2rem;
@@ -22,7 +23,27 @@
   font-weight: 700;
 }
 
-.book-list-content .books-grid {
+.book-list-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.book-list-actions__button {
+  border: none;
+  border-radius: 0.8rem;
+  background: var(--gradient-primary-color);
+  color: var(--neutral-color);
+  font-weight: 700;
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.books-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.25rem;
