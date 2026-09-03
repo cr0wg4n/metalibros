@@ -1,12 +1,22 @@
 # Metalibros
 
+**Autor**: Mauricio Matias Conde (cr0wg4n)
+
+
+**Repositorio Público**: https://github.com/cr0wg4n/metalibros
+
+**Página web desplegada**: https://cr0wg4n.github.io/metalibros/
+
+**Evidencia Pull Requests**: https://github.com/cr0wg4n/metalibros/pulls?q=is%3Apr+is%3Aclosed
+
+**Evidencia +10 Commits**: https://github.com/cr0wg4n/metalibros/commits/main/
+
 ![Metalibros](docs/images/metalibros.jpg)
 
 Es una tienda online de venta de libros de pensamiento crítico y clásicos de la literatura.
 
 > Todos los datos e interacciones están de cierta forma falseadas ya que no tiene interactividad con JS, esta página fue desarrollada puramente con HTML y CSS.
 
-Página web desplegada: https://cr0wg4n.github.io/metalibros/
 
 ### Flujo de Navegación
 Para entender un tanto la navegación dentro de la página se puede utilizar el siguiente flujo:
@@ -43,4 +53,5 @@ Las consideraciones iniciales con las que se desarrolló esta Página Web están
     * <img valign='middle' src='https://readme-swatches.vercel.app/1F2D3D?style=rectangle'/> dark: #1F2D3D
 
 5. Finalmente, se consideró igualmente el uso de meta tags en cada página HTML para mejorar el SEO y la experiencia del usuario al compartir cada enlace (en el caso de que la Página Web realmente se despliegue).
+
 
